@@ -13,7 +13,7 @@ const toBerlinClock = (line) => {
 }
 
 const splitTime = (time) => {
-    return [...time.split(':')];
+    return time.split(':');
 }
 const toSeconds = (seconds) => {
     return seconds % 2 === 0 ? '.' : 'X';
